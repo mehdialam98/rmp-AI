@@ -1,8 +1,32 @@
-import React from 'react';
+'use client';
+import React, { useState } from 'react';
 import { AppBar, Toolbar, Typography, Container, TextField, Button, Box } from '@mui/material';
 
 export default function Home() {
-  
+  const [qualities, setQualities] = useState("");
+  const [response, setResponse] = useState("");
+
+  const searchProfessors = async () => {
+    // Simulating an API call
+    setResponse("Searching for professors...");
+    
+    try {
+      // API call here
+      // For now, simulating a mock response
+      await new Promise(resolve => setTimeout(resolve, 1000));
+      
+      const mockResponse = `Here are some professors with the qualities you specified (${qualities}):
+        1. Dr. Jane Smith - Known for engaging lectures and clear explanations
+        2. Prof. John Doe - Praised for interactive teaching style and in-depth knowledge
+        3. Dr. Emily Brown - Highly rated for approachability and thorough feedback`;
+      
+      setResponse(mockResponse);
+    } catch (error) {
+      console.error("Error searching professors:", error);
+      setResponse("An error occurred while searching for professors. Please try again.");
+    }
+  };
+
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static" color="transparent" elevation={0}>
@@ -41,11 +65,13 @@ export default function Home() {
       </Box>
       <Container maxWidth="md" sx={{ mt: 4 }}>
         <Box sx={{ display: 'flex', alignItems: 'flex-end' }}>
-          <TextField
+          <TextField 
             fullWidth
             label="Enter professor qualities (e.g. engaging, clear explanations)"
             variant="outlined"
             sx={{ mr: 1 }}
+            value={qualities}
+            onChange={(e) => setQualities(e.target.value)}
           />
           <Button 
             variant="contained" 
@@ -58,11 +84,24 @@ export default function Home() {
                 color: 'black',
               }
             }}
+            onClick={searchProfessors}
           >
             Search
           </Button>
         </Box>
+        <Box sx={{ mt: 2 }}>
+          <TextField
+            fullWidth
+            multiline
+            rows={4}
+            variant="outlined"
+            value={response}
+            InputProps={{
+              readOnly: true,
+            }}
+          />
+        </Box>
       </Container>
     </Box>
   );
-};
+}

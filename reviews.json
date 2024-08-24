@@ -1,124 +1,436 @@
 {
-  "reviews": [
-    {
-      "professor": "Dr. Sarah Johnson",
-      "subject": "Physics",
-      "stars": 5,
-      "reviews": "Dr. Johnson's lectures are incredibly engaging and she explains complex concepts with great clarity."
-    },
-    {
-      "professor": "Prof. Michael Chen",
-      "subject": "Computer Science",
-      "stars": 4,
-      "reviews": "Prof. Chen is knowledgeable and approachable, but sometimes his assignments can be overly challenging."
-    },
-    {
-      "professor": "Dr. Emily Rodriguez",
-      "subject": "Biology",
-      "stars": 5,
-      "reviews": "Dr. Rodriguez's passion for biology is contagious. Her labs are well-organized and informative."
-    },
-    {
-      "professor": "Prof. David Thompson",
-      "subject": "History",
-      "stars": 3,
-      "reviews": "Prof. Thompson knows his subject well, but his lectures can be a bit dry at times."
-    },
-    {
-      "professor": "Dr. Lisa Patel",
-      "subject": "Chemistry",
-      "stars": 4,
-      "reviews": "Dr. Patel is excellent at breaking down complex chemical processes. Her office hours are very helpful."
-    },
-    {
-      "professor": "Prof. Robert Wilson",
-      "subject": "Mathematics",
-      "stars": 5,
-      "reviews": "Prof. Wilson's teaching style makes even the most difficult math concepts accessible. Highly recommended!"
-    },
-    {
-      "professor": "Dr. Amanda Lee",
-      "subject": "Psychology",
-      "stars": 4,
-      "reviews": "Dr. Lee's real-world examples make the course material relatable and interesting."
-    },
-    {
-      "professor": "Prof. James Brown",
-      "subject": "Economics",
-      "stars": 3,
-      "reviews": "Prof. Brown is knowledgeable, but sometimes struggles to explain complex economic theories clearly."
-    },
-    {
-      "professor": "Dr. Maria Garcia",
-      "subject": "Sociology",
-      "stars": 5,
-      "reviews": "Dr. Garcia's classes are thought-provoking and encourage critical thinking about social issues."
-    },
-    {
-      "professor": "Prof. Thomas Wright",
-      "subject": "English Literature",
-      "stars": 4,
-      "reviews": "Prof. Wright's passion for literature is evident. His analysis of texts is insightful and inspiring."
-    },
-    {
-      "professor": "Dr. Kevin O'Brien",
-      "subject": "Political Science",
-      "stars": 3,
-      "reviews": "Dr. O'Brien covers a lot of material, but sometimes the pace of the class feels rushed."
-    },
-    {
-      "professor": "Prof. Samantha Taylor",
-      "subject": "Art History",
-      "stars": 5,
-      "reviews": "Prof. Taylor's lectures are like guided tours through art history. Her enthusiasm is infectious."
-    },
-    {
-      "professor": "Dr. Alex Nguyen",
-      "subject": "Environmental Science",
-      "stars": 4,
-      "reviews": "Dr. Nguyen brings current environmental issues into the classroom, making the course very relevant."
-    },
-    {
-      "professor": "Prof. Rachel Cohen",
-      "subject": "Philosophy",
-      "stars": 5,
-      "reviews": "Prof. Cohen's Socratic method of teaching really encourages deep thinking and class participation."
-    },
-    {
-      "professor": "Dr. Daniel Kim",
-      "subject": "Mechanical Engineering",
-      "stars": 4,
-      "reviews": "Dr. Kim's practical approach to engineering problems is very helpful. His projects are challenging but rewarding."
-    },
-    {
-      "professor": "Prof. Laura Martinez",
-      "subject": "Spanish",
-      "stars": 5,
-      "reviews": "Prof. Martinez creates an immersive language learning environment. Her classes are both fun and effective."
-    },
-    {
-      "professor": "Dr. Christopher Lee",
-      "subject": "Astronomy",
-      "stars": 4,
-      "reviews": "Dr. Lee's passion for space exploration makes his classes captivating. The stargazing sessions are a highlight."
-    },
-    {
-      "professor": "Prof. Elizabeth White",
-      "subject": "Business Administration",
-      "stars": 3,
-      "reviews": "Prof. White has extensive industry experience, but her lectures can sometimes lack structure."
-    },
-    {
-      "professor": "Dr. Mohammed Al-Fayed",
-      "subject": "Electrical Engineering",
-      "stars": 5,
-      "reviews": "Dr. Al-Fayed's clear explanations of complex circuits and systems are invaluable. His lab sessions are excellent."
-    },
-    {
-      "professor": "Prof. Julia Schwartz",
-      "subject": "Music Theory",
-      "stars": 4,
-      "reviews": "Prof. Schwartz's interactive approach to teaching music theory is engaging. Her ear training exercises are particularly helpful."
-    }
-  ]
+    "reviews": [
+      {
+        "name": "Noah Snavely",
+        "department": "Computer Science",
+        "university": "Cornell University",
+        "quality": 4.4,
+        "num_ratings": 4,
+        "would_take_again": "N/A",
+        "level_of_difficulty": 2.0
+      },
+      {
+        "name": "Andrew Kuramoto",
+        "department": "Computer Science",
+        "university": "Cornell University",
+        "quality": 5.0,
+        "num_ratings": 1,
+        "would_take_again": "100%",
+        "level_of_difficulty": 1.0
+      },
+      {
+        "name": "David Schwartz",
+        "department": "Computer Science",
+        "university": "Cornell University",
+        "quality": 3.1,
+        "num_ratings": 52,
+        "would_take_again": "N/A",
+        "level_of_difficulty": 3.3
+      },
+      {
+        "name": "Bart Selman",
+        "department": "Computer Science",
+        "university": "Cornell University",
+        "quality": 2.4,
+        "num_ratings": 19,
+        "would_take_again": "25%",
+        "level_of_difficulty": 2.8
+      },
+      {
+        "name": "Ross Knepper",
+        "department": "Computer Science",
+        "university": "Cornell University",
+        "quality": 2.0,
+        "num_ratings": 2,
+        "would_take_again": "0%",
+        "level_of_difficulty": 4.0
+      },
+      {
+        "name": "Karthik Sridharan",
+        "department": "Computer Science",
+        "university": "Cornell University",
+        "quality": 2.8,
+        "num_ratings": 14,
+        "would_take_again": "67%",
+        "level_of_difficulty": 4.4
+      },
+      {
+        "name": "Carla Gomes",
+        "department": "Computer Science",
+        "university": "Cornell University",
+        "quality": 2.8,
+        "num_ratings": 4,
+        "would_take_again": "0%",
+        "level_of_difficulty": 3.8
+      },
+      {
+        "name": "Hakim Weatherspoon",
+        "department": "Computer Science",
+        "university": "Cornell University",
+        "quality": 2.6,
+        "num_ratings": 14,
+        "would_take_again": "50%",
+        "level_of_difficulty": 3.9
+      },
+      {
+        "name": "Ali Erkan",
+        "department": "Computer Science",
+        "university": "Cornell University",
+        "quality": 0.0,
+        "num_ratings": 0,
+        "would_take_again": "N/A",
+        "level_of_difficulty": 0.0
+      },
+      {
+        "name": "Yunhao Zhang",
+        "department": "Computer Science",
+        "university": "Cornell University",
+        "quality": 5.0,
+        "num_ratings": 18,
+        "would_take_again": "100%",
+        "level_of_difficulty": 4.0
+      },
+      {
+        "name": "Andrew Myers",
+        "department": "Computer Science",
+        "university": "Cornell University",
+        "quality": 3.5,
+        "num_ratings": 37,
+        "would_take_again": "100%",
+        "level_of_difficulty": 4.1
+      },
+      {
+        "name": "Dominic Diaz",
+        "department": "Computer Science",
+        "university": "Cornell University",
+        "quality": 5.0,
+        "num_ratings": 1,
+        "would_take_again": "100%",
+        "level_of_difficulty": 3.0
+      },
+      {
+        "name": "Ronald Dinapoli",
+        "department": "Computer Science",
+        "university": "Cornell University",
+        "quality": 3.4,
+        "num_ratings": 7,
+        "would_take_again": "67%",
+        "level_of_difficulty": 2.0
+      },
+      {
+        "name": "Rachee Singh",
+        "department": "Computer Science",
+        "university": "Cornell University",
+        "quality": 4.0,
+        "num_ratings": 3,
+        "would_take_again": "100%",
+        "level_of_difficulty": 3.4
+      },
+      {
+        "name": "Emin Gun Sirer",
+        "department": "Computer Science",
+        "university": "Cornell University",
+        "quality": 3.7,
+        "num_ratings": 26,
+        "would_take_again": "N/A",
+        "level_of_difficulty": 3.7
+      },
+      {
+        "name": "Robbert Van Renesse",
+        "department": "Computer Science",
+        "university": "Cornell University",
+        "quality": 4.1,
+        "num_ratings": 10,
+        "would_take_again": "70%",
+        "level_of_difficulty": 3.3
+      },
+      {
+        "name": "Jaehee Kim",
+        "department": "Computer Science",
+        "university": "Cornell University",
+        "quality": 0.0,
+        "num_ratings": 0,
+        "would_take_again": "N/A",
+        "level_of_difficulty": 0.0
+      },
+      {
+        "name": "Anna Fang",
+        "department": "Computer Science",
+        "university": "Cornell University",
+        "quality": 5.0,
+        "num_ratings": 1,
+        "would_take_again": "100%",
+        "level_of_difficulty": 3.0
+      },
+      {
+        "name": "Yoav Artzi",
+        "department": "Computer Science",
+        "university": "Cornell University",
+        "quality": 1.0,
+        "num_ratings": 2,
+        "would_take_again": "0%",
+        "level_of_difficulty": 5.0
+      },
+      {
+        "name": "Curran Muhlberger",
+        "department": "Computer Science",
+        "university": "Cornell University",
+        "quality": 3.9,
+        "num_ratings": 35,
+        "would_take_again": "100%",
+        "level_of_difficulty": 4.9
+      },
+      {
+        "name": "Walker White",
+        "department": "Computer Science",
+        "university": "Cornell University",
+        "quality": 5.0,
+        "num_ratings": 133,
+        "would_take_again": "94%",
+        "level_of_difficulty": 4.3
+      },
+      {
+        "name": "Bharath Hariharan",
+        "department": "Computer Science",
+        "university": "Cornell University",
+        "quality": 2.5,
+        "num_ratings": 20,
+        "would_take_again": "50%",
+        "level_of_difficulty": 3.0
+      },
+      {
+        "name": "Rachit Agarwal",
+        "department": "Computer Science",
+        "university": "Cornell University",
+        "quality": 3.2,
+        "num_ratings": 27,
+        "would_take_again": "60%",
+        "level_of_difficulty": 3.5
+      },
+      {
+        "name": "David Bindel",
+        "department": "Computer Science",
+        "university": "Cornell University",
+        "quality": 5.0,
+        "num_ratings": 1,
+        "would_take_again": "100%",
+        "level_of_difficulty": 4.0
+      },
+      {
+        "name": "Kilian Weinberger",
+        "department": "Computer Science",
+        "university": "Cornell University",
+        "quality": 4.3,
+        "num_ratings": 50,
+        "would_take_again": "66%",
+        "level_of_difficulty": 3.5
+      },
+      {
+        "name": "Adrian Sampson",
+        "department": "Computer Science",
+        "university": "Cornell University",
+        "quality": 5.0,
+        "num_ratings": 6,
+        "would_take_again": "100%",
+        "level_of_difficulty": 3.9
+      },
+      {
+        "name": "Owolabi Legunsen",
+        "department": "Computer Science",
+        "university": "Cornell University",
+        "quality": 5.0,
+        "num_ratings": 2,
+        "would_take_again": "100%",
+        "level_of_difficulty": 2.0
+      },
+      {
+        "name": "Noah Stephens-Davidowitz",
+        "department": "Computer Science",
+        "university": "Cornell University",
+        "quality": 1.0,
+        "num_ratings": 2,
+        "would_take_again": "N/A",
+        "level_of_difficulty": 5.0
+      },
+      {
+        "name": "Katherine van Koevering",
+        "department": "Computer Science",
+        "university": "Cornell University",
+        "quality": 0.0,
+        "num_ratings": 0,
+        "would_take_again": "N/A",
+        "level_of_difficulty": 0.0
+      },
+      {
+        "name": "Angelique Taylor",
+        "department": "Computer Science",
+        "university": "Cornell University",
+        "quality": 0.0,
+        "num_ratings": 0,
+        "would_take_again": "N/A",
+        "level_of_difficulty": 0.0
+      },
+      {
+        "name": "Michael Kim",
+        "department": "Computer Science",
+        "university": "Cornell University",
+        "quality": 4.0,
+        "num_ratings": 2,
+        "would_take_again": "100%",
+        "level_of_difficulty": 5.0
+      },
+      {
+        "name": "Ari Juels",
+        "department": "Computer Science",
+        "university": "Cornell University",
+        "quality": 3.0,
+        "num_ratings": 2,
+        "would_take_again": "100%",
+        "level_of_difficulty": 3.0
+      },
+      {
+        "name": "Charles Mitz",
+        "department": "Computer Science",
+        "university": "Cornell University",
+        "quality": 0.0,
+        "num_ratings": 0,
+        "would_take_again": "N/A",
+        "level_of_difficulty": 0.0
+      },
+      {
+        "name": "Paul Chew",
+        "department": "Computer Science",
+        "university": "Cornell University",
+        "quality": 3.2,
+        "num_ratings": 11,
+        "would_take_again": "N/A",
+        "level_of_difficulty": 3.2
+      },
+      {
+        "name": "Walter Frisch",
+        "department": "Computer Science",
+        "university": "Cornell University",
+        "quality": 5.0,
+        "num_ratings": 2,
+        "would_take_again": "100%",
+        "level_of_difficulty": 4.5
+      },
+      {
+        "name": "Siddhartha Chaudhuri",
+        "department": "Computer Science",
+        "university": "Cornell University",
+        "quality": 4.5,
+        "num_ratings": 7,
+        "would_take_again": "N/A",
+        "level_of_difficulty": 3.1
+      },
+      {
+        "name": "Ken Birman",
+        "department": "Computer Science",
+        "university": "Cornell University",
+        "quality": 3.4,
+        "num_ratings": 37,
+        "would_take_again": "58%",
+        "level_of_difficulty": 3.1
+      },
+      {
+        "name": "Graeme Bailey",
+        "department": "Computer Science",
+        "university": "Cornell University",
+        "quality": 3.8,
+        "num_ratings": 78,
+        "would_take_again": "17%",
+        "level_of_difficulty": 3.8
+      },
+      {
+        "name": "Yucheng Lu",
+        "department": "Computer Science",
+        "university": "Cornell University",
+        "quality": 0.0,
+        "num_ratings": 0,
+        "would_take_again": "N/A",
+        "level_of_difficulty": 0.0
+      },
+      {
+        "name": "Ramin Zabih",
+        "department": "Computer Science",
+        "university": "Cornell University",
+        "quality": 3.5,
+        "num_ratings": 18,
+        "would_take_again": "50%",
+        "level_of_difficulty": 3.1
+      },
+      {
+        "name": "Thorsten Joachims",
+        "department": "Computer Science",
+        "university": "Cornell University",
+        "quality": 3.4,
+        "num_ratings": 12,
+        "would_take_again": "0%",
+        "level_of_difficulty": 3.7
+      },
+      {
+        "name": "Donald Greenberg",
+        "department": "Computer Science",
+        "university": "Cornell University",
+        "quality": 3.6,
+        "num_ratings": 11,
+        "would_take_again": "100%",
+        "level_of_difficulty": 3.5
+      },
+      {
+        "name": "Michael George",
+        "department": "Computer Science",
+        "university": "Cornell University",
+        "quality": 2.7,
+        "num_ratings": 38,
+        "would_take_again": "45%",
+        "level_of_difficulty": 3.7
+      },
+      {
+        "name": "Amy Williams",
+        "department": "Computer Science",
+        "university": "Cornell University",
+        "quality": 5.0,
+        "num_ratings": 3,
+        "would_take_again": "100%",
+        "level_of_difficulty": 3.7
+      },
+      {
+        "name": "Wen Sun",
+        "department": "Computer Science",
+        "university": "Cornell University",
+        "quality": 4.6,
+        "num_ratings": 4,
+        "would_take_again": "100%",
+        "level_of_difficulty": 4.4
+      },
+      {
+        "name": "Joseph Halpern",
+        "department": "Computer Science",
+        "university": "Cornell University",
+        "quality": 4.3,
+        "num_ratings": 22,
+        "would_take_again": "100%",
+        "level_of_difficulty": 3.9
+      },
+      {
+        "name": "Eshan Chattopadhyay",
+        "department": "Computer Science",
+        "university": "Cornell University",
+        "quality": 5.0,
+        "num_ratings": 7,
+        "would_take_again": "100%",
+        "level_of_difficulty": 3.0
+      },
+      {
+        "name": "Haym Hirsh",
+        "department": "Computer Science",
+        "university": "Cornell University",
+        "quality": 3.1,
+        "num_ratings": 13,
+        "would_take_again": "62%",
+        "level_of_difficulty": 2.5
+      }
+    ]
 }

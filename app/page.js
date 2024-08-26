@@ -1,10 +1,15 @@
 'use client';
 import React, { useState } from 'react';
+
+import { useRouter } from 'next/navigation';
+
 import { AppBar, Toolbar, Typography, Container, TextField, Button, Box } from '@mui/material';
 
 export default function Home() {
   const [qualities, setQualities] = useState("");
   const [response, setResponse] = useState("");
+  const router = useRouter(); // Initialize the useRouter hook
+
 
   const searchProfessors = async () => {
     // Simulating an API call
@@ -34,9 +39,14 @@ export default function Home() {
           <Typography variant="h5" component="div" sx={{ flexGrow: 1 }}>
             ProfReview AI
           </Typography>
-          <Button color="inherit" sx={{ '&:hover': { backgroundColor: 'darkgray' } }}>About</Button>
-          <Button color="inherit" sx={{ '&:hover': { backgroundColor: 'darkgray' } }}>News</Button>
-          <Button color="inherit" sx={{ '&:hover': { backgroundColor: 'darkgray' } }}>Read Me</Button>
+          <Button 
+            color="inherit" 
+            sx={{ '&:hover': { backgroundColor: 'darkgray' } }}
+            onClick={() => router.push('/conversation')} // Navigate to the conversation page
+          >
+            Chat
+          </Button>
+
         </Toolbar>
       </AppBar>
       <Box

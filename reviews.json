@@ -1,436 +1,228 @@
-{
-    "reviews": [
-      {
-        "name": "Noah Snavely",
-        "department": "Computer Science",
-        "university": "Cornell University",
-        "quality": 4.4,
-        "num_ratings": 4,
-        "would_take_again": "N/A",
-        "level_of_difficulty": 2.0
-      },
-      {
-        "name": "Andrew Kuramoto",
-        "department": "Computer Science",
-        "university": "Cornell University",
-        "quality": 5.0,
-        "num_ratings": 1,
-        "would_take_again": "100%",
-        "level_of_difficulty": 1.0
-      },
-      {
-        "name": "David Schwartz",
-        "department": "Computer Science",
-        "university": "Cornell University",
-        "quality": 3.1,
-        "num_ratings": 52,
-        "would_take_again": "N/A",
-        "level_of_difficulty": 3.3
-      },
-      {
-        "name": "Bart Selman",
-        "department": "Computer Science",
-        "university": "Cornell University",
-        "quality": 2.4,
-        "num_ratings": 19,
-        "would_take_again": "25%",
-        "level_of_difficulty": 2.8
-      },
-      {
-        "name": "Ross Knepper",
-        "department": "Computer Science",
-        "university": "Cornell University",
-        "quality": 2.0,
-        "num_ratings": 2,
-        "would_take_again": "0%",
-        "level_of_difficulty": 4.0
-      },
-      {
-        "name": "Karthik Sridharan",
-        "department": "Computer Science",
-        "university": "Cornell University",
-        "quality": 2.8,
-        "num_ratings": 14,
-        "would_take_again": "67%",
-        "level_of_difficulty": 4.4
-      },
-      {
-        "name": "Carla Gomes",
-        "department": "Computer Science",
-        "university": "Cornell University",
-        "quality": 2.8,
-        "num_ratings": 4,
-        "would_take_again": "0%",
-        "level_of_difficulty": 3.8
-      },
-      {
-        "name": "Hakim Weatherspoon",
-        "department": "Computer Science",
-        "university": "Cornell University",
-        "quality": 2.6,
-        "num_ratings": 14,
-        "would_take_again": "50%",
-        "level_of_difficulty": 3.9
-      },
-      {
-        "name": "Ali Erkan",
-        "department": "Computer Science",
-        "university": "Cornell University",
-        "quality": 0.0,
-        "num_ratings": 0,
-        "would_take_again": "N/A",
-        "level_of_difficulty": 0.0
-      },
-      {
-        "name": "Yunhao Zhang",
-        "department": "Computer Science",
-        "university": "Cornell University",
-        "quality": 5.0,
-        "num_ratings": 18,
-        "would_take_again": "100%",
-        "level_of_difficulty": 4.0
-      },
-      {
-        "name": "Andrew Myers",
-        "department": "Computer Science",
-        "university": "Cornell University",
-        "quality": 3.5,
-        "num_ratings": 37,
-        "would_take_again": "100%",
-        "level_of_difficulty": 4.1
-      },
-      {
-        "name": "Dominic Diaz",
-        "department": "Computer Science",
-        "university": "Cornell University",
-        "quality": 5.0,
-        "num_ratings": 1,
-        "would_take_again": "100%",
-        "level_of_difficulty": 3.0
-      },
-      {
-        "name": "Ronald Dinapoli",
-        "department": "Computer Science",
-        "university": "Cornell University",
-        "quality": 3.4,
-        "num_ratings": 7,
-        "would_take_again": "67%",
-        "level_of_difficulty": 2.0
-      },
-      {
-        "name": "Rachee Singh",
-        "department": "Computer Science",
-        "university": "Cornell University",
-        "quality": 4.0,
-        "num_ratings": 3,
-        "would_take_again": "100%",
-        "level_of_difficulty": 3.4
-      },
-      {
-        "name": "Emin Gun Sirer",
-        "department": "Computer Science",
-        "university": "Cornell University",
-        "quality": 3.7,
-        "num_ratings": 26,
-        "would_take_again": "N/A",
-        "level_of_difficulty": 3.7
-      },
-      {
-        "name": "Robbert Van Renesse",
-        "department": "Computer Science",
-        "university": "Cornell University",
-        "quality": 4.1,
-        "num_ratings": 10,
-        "would_take_again": "70%",
-        "level_of_difficulty": 3.3
-      },
-      {
-        "name": "Jaehee Kim",
-        "department": "Computer Science",
-        "university": "Cornell University",
-        "quality": 0.0,
-        "num_ratings": 0,
-        "would_take_again": "N/A",
-        "level_of_difficulty": 0.0
-      },
-      {
-        "name": "Anna Fang",
-        "department": "Computer Science",
-        "university": "Cornell University",
-        "quality": 5.0,
-        "num_ratings": 1,
-        "would_take_again": "100%",
-        "level_of_difficulty": 3.0
-      },
-      {
-        "name": "Yoav Artzi",
-        "department": "Computer Science",
-        "university": "Cornell University",
-        "quality": 1.0,
-        "num_ratings": 2,
-        "would_take_again": "0%",
-        "level_of_difficulty": 5.0
-      },
-      {
-        "name": "Curran Muhlberger",
-        "department": "Computer Science",
-        "university": "Cornell University",
-        "quality": 3.9,
-        "num_ratings": 35,
-        "would_take_again": "100%",
-        "level_of_difficulty": 4.9
-      },
-      {
-        "name": "Walker White",
-        "department": "Computer Science",
-        "university": "Cornell University",
-        "quality": 5.0,
-        "num_ratings": 133,
-        "would_take_again": "94%",
-        "level_of_difficulty": 4.3
-      },
-      {
-        "name": "Bharath Hariharan",
-        "department": "Computer Science",
-        "university": "Cornell University",
-        "quality": 2.5,
-        "num_ratings": 20,
-        "would_take_again": "50%",
-        "level_of_difficulty": 3.0
-      },
-      {
-        "name": "Rachit Agarwal",
-        "department": "Computer Science",
-        "university": "Cornell University",
-        "quality": 3.2,
-        "num_ratings": 27,
-        "would_take_again": "60%",
-        "level_of_difficulty": 3.5
-      },
-      {
-        "name": "David Bindel",
-        "department": "Computer Science",
-        "university": "Cornell University",
-        "quality": 5.0,
-        "num_ratings": 1,
-        "would_take_again": "100%",
-        "level_of_difficulty": 4.0
-      },
-      {
-        "name": "Kilian Weinberger",
-        "department": "Computer Science",
-        "university": "Cornell University",
-        "quality": 4.3,
-        "num_ratings": 50,
-        "would_take_again": "66%",
-        "level_of_difficulty": 3.5
-      },
-      {
-        "name": "Adrian Sampson",
-        "department": "Computer Science",
-        "university": "Cornell University",
-        "quality": 5.0,
-        "num_ratings": 6,
-        "would_take_again": "100%",
-        "level_of_difficulty": 3.9
-      },
-      {
-        "name": "Owolabi Legunsen",
-        "department": "Computer Science",
-        "university": "Cornell University",
-        "quality": 5.0,
-        "num_ratings": 2,
-        "would_take_again": "100%",
-        "level_of_difficulty": 2.0
-      },
-      {
-        "name": "Noah Stephens-Davidowitz",
-        "department": "Computer Science",
-        "university": "Cornell University",
-        "quality": 1.0,
-        "num_ratings": 2,
-        "would_take_again": "N/A",
-        "level_of_difficulty": 5.0
-      },
-      {
-        "name": "Katherine van Koevering",
-        "department": "Computer Science",
-        "university": "Cornell University",
-        "quality": 0.0,
-        "num_ratings": 0,
-        "would_take_again": "N/A",
-        "level_of_difficulty": 0.0
-      },
-      {
-        "name": "Angelique Taylor",
-        "department": "Computer Science",
-        "university": "Cornell University",
-        "quality": 0.0,
-        "num_ratings": 0,
-        "would_take_again": "N/A",
-        "level_of_difficulty": 0.0
-      },
-      {
-        "name": "Michael Kim",
-        "department": "Computer Science",
-        "university": "Cornell University",
-        "quality": 4.0,
-        "num_ratings": 2,
-        "would_take_again": "100%",
-        "level_of_difficulty": 5.0
-      },
-      {
-        "name": "Ari Juels",
-        "department": "Computer Science",
-        "university": "Cornell University",
-        "quality": 3.0,
-        "num_ratings": 2,
-        "would_take_again": "100%",
-        "level_of_difficulty": 3.0
-      },
-      {
-        "name": "Charles Mitz",
-        "department": "Computer Science",
-        "university": "Cornell University",
-        "quality": 0.0,
-        "num_ratings": 0,
-        "would_take_again": "N/A",
-        "level_of_difficulty": 0.0
-      },
-      {
-        "name": "Paul Chew",
-        "department": "Computer Science",
-        "university": "Cornell University",
-        "quality": 3.2,
-        "num_ratings": 11,
-        "would_take_again": "N/A",
-        "level_of_difficulty": 3.2
-      },
-      {
-        "name": "Walter Frisch",
-        "department": "Computer Science",
-        "university": "Cornell University",
-        "quality": 5.0,
-        "num_ratings": 2,
-        "would_take_again": "100%",
-        "level_of_difficulty": 4.5
-      },
-      {
-        "name": "Siddhartha Chaudhuri",
-        "department": "Computer Science",
-        "university": "Cornell University",
-        "quality": 4.5,
-        "num_ratings": 7,
-        "would_take_again": "N/A",
-        "level_of_difficulty": 3.1
-      },
-      {
-        "name": "Ken Birman",
-        "department": "Computer Science",
-        "university": "Cornell University",
-        "quality": 3.4,
-        "num_ratings": 37,
-        "would_take_again": "58%",
-        "level_of_difficulty": 3.1
-      },
-      {
-        "name": "Graeme Bailey",
-        "department": "Computer Science",
-        "university": "Cornell University",
-        "quality": 3.8,
-        "num_ratings": 78,
-        "would_take_again": "17%",
-        "level_of_difficulty": 3.8
-      },
-      {
-        "name": "Yucheng Lu",
-        "department": "Computer Science",
-        "university": "Cornell University",
-        "quality": 0.0,
-        "num_ratings": 0,
-        "would_take_again": "N/A",
-        "level_of_difficulty": 0.0
-      },
-      {
-        "name": "Ramin Zabih",
-        "department": "Computer Science",
-        "university": "Cornell University",
-        "quality": 3.5,
-        "num_ratings": 18,
-        "would_take_again": "50%",
-        "level_of_difficulty": 3.1
-      },
-      {
-        "name": "Thorsten Joachims",
-        "department": "Computer Science",
-        "university": "Cornell University",
-        "quality": 3.4,
-        "num_ratings": 12,
-        "would_take_again": "0%",
-        "level_of_difficulty": 3.7
-      },
-      {
-        "name": "Donald Greenberg",
-        "department": "Computer Science",
-        "university": "Cornell University",
-        "quality": 3.6,
-        "num_ratings": 11,
-        "would_take_again": "100%",
-        "level_of_difficulty": 3.5
-      },
-      {
-        "name": "Michael George",
-        "department": "Computer Science",
-        "university": "Cornell University",
-        "quality": 2.7,
-        "num_ratings": 38,
-        "would_take_again": "45%",
-        "level_of_difficulty": 3.7
-      },
-      {
-        "name": "Amy Williams",
-        "department": "Computer Science",
-        "university": "Cornell University",
-        "quality": 5.0,
-        "num_ratings": 3,
-        "would_take_again": "100%",
-        "level_of_difficulty": 3.7
-      },
-      {
-        "name": "Wen Sun",
-        "department": "Computer Science",
-        "university": "Cornell University",
-        "quality": 4.6,
-        "num_ratings": 4,
-        "would_take_again": "100%",
-        "level_of_difficulty": 4.4
-      },
-      {
-        "name": "Joseph Halpern",
-        "department": "Computer Science",
-        "university": "Cornell University",
-        "quality": 4.3,
-        "num_ratings": 22,
-        "would_take_again": "100%",
-        "level_of_difficulty": 3.9
-      },
-      {
-        "name": "Eshan Chattopadhyay",
-        "department": "Computer Science",
-        "university": "Cornell University",
-        "quality": 5.0,
-        "num_ratings": 7,
-        "would_take_again": "100%",
-        "level_of_difficulty": 3.0
-      },
-      {
-        "name": "Haym Hirsh",
-        "department": "Computer Science",
-        "university": "Cornell University",
-        "quality": 3.1,
-        "num_ratings": 13,
-        "would_take_again": "62%",
-        "level_of_difficulty": 2.5
-      }
-    ]
-}
+  "reviews": [
+    {
+      "name": "Noah Snavely",
+      "department": "Computer Science",
+      "university": "Cornell University",
+      "quality": 4.4,
+      "num_ratings": 4,
+      "would_take_again": "N/A",
+      "level_of_difficulty": 2.0
+    },
+    {
+      "name": "Andrew Kuramoto",
+      "department": "Computer Science",
+      "university": "Cornell University",
+      "quality": 5.0,
+      "num_ratings": 1,
+      "would_take_again": "100%",
+      "level_of_difficulty": 1.0
+    },
+    {
+      "name": "David Schwartz",
+      "department": "Computer Science",
+      "university": "Cornell University",
+      "quality": 3.1,
+      "num_ratings": 52,
+      "would_take_again": "N/A",
+      "level_of_difficulty": 3.3
+    },
+    {
+      "name": "Bart Selman",
+      "department": "Computer Science",
+      "university": "Cornell University",
+      "quality": 2.4,
+      "num_ratings": 19,
+      "would_take_again": "25%",
+      "level_of_difficulty": 2.8
+    },
+    {
+      "name": "Karthik Sridharan",
+      "department": "Computer Science",
+      "university": "Cornell University",
+      "quality": 2.8,
+      "num_ratings": 14,
+      "would_take_again": "67%",
+      "level_of_difficulty": 4.4
+    },
+    {
+      "name": "Hakim Weatherspoon",
+      "department": "Computer Science",
+      "university": "Cornell University",
+      "quality": 2.6,
+      "num_ratings": 14,
+      "would_take_again": "50%",
+      "level_of_difficulty": 3.9
+    },
+    {
+      "name": "Yunhao Zhang",
+      "department": "Computer Science",
+      "university": "Cornell University",
+      "quality": 5.0,
+      "num_ratings": 18,
+      "would_take_again": "100%",
+      "level_of_difficulty": 4.0
+    },
+    {
+      "name": "Andrew Myers",
+      "department": "Computer Science",
+      "university": "Cornell University",
+      "quality": 3.5,
+      "num_ratings": 37,
+      "would_take_again": "100%",
+      "level_of_difficulty": 4.1
+    },
+    {
+      "name": "Ronald Dinapoli",
+      "department": "Computer Science",
+      "university": "Cornell University",
+      "quality": 3.4,
+      "num_ratings": 7,
+      "would_take_again": "67%",
+      "level_of_difficulty": 2.0
+    },
+    {
+      "name": "Emin Gun Sirer",
+      "department": "Computer Science",
+      "university": "Cornell University",
+      "quality": 3.7,
+      "num_ratings": 26,
+      "would_take_again": "N/A",
+      "level_of_difficulty": 3.7
+    },
+    {
+      "name": "Robbert Van Renesse",
+      "department": "Computer Science",
+      "university": "Cornell University",
+      "quality": 4.1,
+      "num_ratings": 10,
+      "would_take_again": "70%",
+      "level_of_difficulty": 3.3
+    },
+    {
+      "name": "Curran Muhlberger",
+      "department": "Computer Science",
+      "university": "Cornell University",
+      "quality": 3.9,
+      "num_ratings": 35,
+      "would_take_again": "100%",
+      "level_of_difficulty": 4.9
+    },
+    {
+      "name": "Walker White",
+      "department": "Computer Science",
+      "university": "Cornell University",
+      "quality": 5.0,
+      "num_ratings": 133,
+      "would_take_again": "94%",
+      "level_of_difficulty": 4.3
+    },
+    {
+      "name": "Bharath Hariharan",
+      "department": "Computer Science",
+      "university": "Cornell University",
+      "quality": 2.5,
+      "num_ratings": 20,
+      "would_take_again": "50%",
+      "level_of_difficulty": 3.0
+    },
+    {
+      "name": "Rachit Agarwal",
+      "department": "Computer Science",
+      "university": "Cornell University",
+      "quality": 3.2,
+      "num_ratings": 27,
+      "would_take_again": "60%",
+      "level_of_difficulty": 3.5
+    },
+    {
+      "name": "Kilian Weinberger",
+      "department": "Computer Science",
+      "university": "Cornell University",
+      "quality": 4.3,
+      "num_ratings": 50,
+      "would_take_again": "66%",
+      "level_of_difficulty": 3.5
+    },
+    {
+      "name": "Adrian Sampson",
+      "department": "Computer Science",
+      "university": "Cornell University",
+      "quality": 5.0,
+      "num_ratings": 6,
+      "would_take_again": "100%",
+      "level_of_difficulty": 3.9
+    },
+    {
+      "name": "Ken Birman",
+      "department": "Computer Science",
+      "university": "Cornell University",
+      "quality": 3.4,
+      "num_ratings": 37,
+      "would_take_again": "58%",
+      "level_of_difficulty": 3.1
+    },
+    {
+      "name": "Graeme Bailey",
+      "department": "Computer Science",
+      "university": "Cornell University",
+      "quality": 3.8,
+      "num_ratings": 78,
+      "would_take_again": "17%",
+      "level_of_difficulty": 3.8
+    },
+    {
+      "name": "Ramin Zabih",
+      "department": "Computer Science",
+      "university": "Cornell University",
+      "quality": 3.5,
+      "num_ratings": 18,
+      "would_take_again": "50%",
+      "level_of_difficulty": 3.1
+    },
+    {
+      "name": "Thorsten Joachims",
+      "department": "Computer Science",
+      "university": "Cornell University",
+      "quality": 3.4,
+      "num_ratings": 12,
+      "would_take_again": "0%",
+      "level_of_difficulty": 3.7
+    },
+    {
+      "name": "Donald Greenberg",
+      "department": "Computer Science",
+      "university": "Cornell University",
+      "quality": 3.6,
+      "num_ratings": 11,
+      "would_take_again": "100%",
+      "level_of_difficulty": 3.5
+    },
+    {
+      "name": "Michael George",
+      "department": "Computer Science",
+      "university": "Cornell University",
+      "quality": 2.7,
+      "num_ratings": 38,
+      "would_take_again": "45%",
+      "level_of_difficulty": 3.7
+    },
+    {
+      "name": "Joseph Halpern",
+      "department": "Computer Science",
+      "university": "Cornell University",
+      "quality": 4.3,
+      "num_ratings": 22,
+      "would_take_again": "100%",
+      "level_of_difficulty": 3.9
+    },
+    {
+      "name": "Haym Hirsh",
+      "department": "Computer Science",
+      "university": "Cornell University",
+      "quality": 3.1,
+      "num_ratings": 13,
+      "would_take_again": "62%",
+      "level_of_difficulty": 2.5
+    }
+  ]
+   

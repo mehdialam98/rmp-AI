@@ -1,3 +1,4 @@
+{
   "reviews": [
     {
       "name": "Noah Snavely",
@@ -6,7 +7,11 @@
       "quality": 4.4,
       "num_ratings": 4,
       "would_take_again": "N/A",
-      "level_of_difficulty": 2.0
+      "level_of_difficulty": 2.0,
+      "reviews": [
+        "Very interesting class and interesting projects. Highly recommended!! Excellent professor!",
+        "Amazing professor. Always helpful. Made me become a CS Major."
+      ]
     },
     {
       "name": "Andrew Kuramoto",
@@ -15,7 +20,10 @@
       "quality": 5.0,
       "num_ratings": 1,
       "would_take_again": "100%",
-      "level_of_difficulty": 1.0
+      "level_of_difficulty": 1.0,
+      "reviews": [
+        "Andrew is probably has the best triceps in the university, small back though. Probably seems like the type of guy to be awful at FIFA."
+      ]
     },
     {
       "name": "David Schwartz",
@@ -24,7 +32,11 @@
       "quality": 3.1,
       "num_ratings": 52,
       "would_take_again": "N/A",
-      "level_of_difficulty": 3.3
+      "level_of_difficulty": 3.3,
+      "reviews": [
+        "I truly enjoyed this class. I'm not sure the lectures were terribly useful (are they ever?), but I kept going to class anyway because this guy is geeky and hilarious, and his love of what he does is infectious. I didn't think it was that hard, but CS100 is a weed out class so some people will find it way too hard.",
+        "the subject matter of this class should be interesting (and is, when you just do it on your own), but his lectures are completely useless. I would say he's one of the worst teachers I've ever had. He seems like a nice man though."
+      ]
     },
     {
       "name": "Bart Selman",
@@ -33,7 +45,11 @@
       "quality": 2.4,
       "num_ratings": 19,
       "would_take_again": "25%",
-      "level_of_difficulty": 2.8
+      "level_of_difficulty": 2.8,
+      "reviews": [
+        "Extremely disorganized and repetitive. Support are really poor as well, no responds on Ed and Hw are poorly structured. Do not recommend",
+        "Prof. Selman to open to discussing novel, out-of-the-box ideas in and outside of class. He really motivates you to think and reason the way a researcher approaches the problem."
+      ]
     },
     {
       "name": "Karthik Sridharan",
@@ -42,7 +58,11 @@
       "quality": 2.8,
       "num_ratings": 14,
       "would_take_again": "67%",
-      "level_of_difficulty": 4.4
+      "level_of_difficulty": 4.4,
+      "reviews": [
+        "He was absolutely amazing in cs 4780 this semester! Hands down the best professor I've ever gotten at Cornell. He breathes new life into the content. We looked forward to his lectures every other week because we have never been that locked in to demolish ML. I worship his teaching style, must take class, especially with him.",
+        "Karthik was a kind sub professor for CS 4780 but the way he teaches was dull and boring. He tried to explain concepts but they weren't intuitive. I just started watching videos online to understand concepts. One thing I can say though is eager to help students but you would have to wait after class. Any case, I just started to watch videos online."
+      ]
     },
     {
       "name": "Hakim Weatherspoon",
@@ -51,7 +71,11 @@
       "quality": 2.6,
       "num_ratings": 14,
       "would_take_again": "50%",
-      "level_of_difficulty": 3.9
+      "level_of_difficulty": 3.9,
+      "reviews": [
+        "Prof. Weatherspoon is a brilliant scientist and a kind professor. He is, however, not very good at explaining concepts. So confusing and keeps talking in circles. I stopped attending lectures after the first week because I learned more from reading the slides on my own. There is a lot of content covered in this course but exams are straightforward.",
+        "I would give a 5 to the professor as a person, but a 2 or 3 to the course. UNREAL amount of workload compared to the other 4 credits CS classes, they should give this course 6 credits. However, Prof Weatherspoon is a caring and respectful person, he will listen to your concerns and advice. Really feel no pressure to stay with as in person."
+      ]
     },
     {
       "name": "Yunhao Zhang",
@@ -60,7 +84,11 @@
       "quality": 5.0,
       "num_ratings": 18,
       "would_take_again": "100%",
-      "level_of_difficulty": 4.0
+      "level_of_difficulty": 4.0,
+      "reviews": [
+        "The best class I've taken at Cornell by a long shot. It is very obvious Yunhao is passionate about teaching and cares about students' outcomes. I found myself often going to office hours to go beyond the course material, which Yunhao made exciting and approachable.",
+        "Take professor Zhang's cs4411 if you are serious about computer science. The course is truly a treasure of Cornell."
+      ]
     },
     {
       "name": "Andrew Myers",
@@ -69,7 +97,11 @@
       "quality": 3.5,
       "num_ratings": 37,
       "would_take_again": "100%",
-      "level_of_difficulty": 4.1
+      "level_of_difficulty": 4.1,
+      "reviews": [
+        "amazon lecturer",
+        "His lectures are okay and he is good at answering students' questions in an enlightening manner. Perhaps things would have been different in a smaller class format, but he was just middle of the road."
+      ]
     },
     {
       "name": "Ronald Dinapoli",
@@ -78,7 +110,11 @@
       "quality": 3.4,
       "num_ratings": 7,
       "would_take_again": "67%",
-      "level_of_difficulty": 2.0
+      "level_of_difficulty": 2.0,
+      "reviews": [
+        "Ronald is a great teacher. Despite the fact the class is pass/fail, he gives students a lot of attention and wants them to both pass and understand the content. He also gives great life advice.",
+        "Excellent professor that gives fun and engaging lectures on C++. Very funny, tells great stories, and gives a level of attention to students that is uncommon in an S/U class. Never say never!"
+      ]
     },
     {
       "name": "Emin Gun Sirer",
@@ -87,7 +123,11 @@
       "quality": 3.7,
       "num_ratings": 26,
       "would_take_again": "N/A",
-      "level_of_difficulty": 3.7
+      "level_of_difficulty": 3.7,
+      "reviews": [
+        "Best CS professor at Cornell. Hands down.",
+        "Great lectures are run like a large discussion, but often don't describe topics comprehensively enough for full coverage. He really stimulates interest in OS though. Exams and grading are very hard. Treat the lecture and prac as 4 credits each in terms of work load."
+      ]
     },
     {
       "name": "Robbert Van Renesse",
@@ -96,7 +136,11 @@
       "quality": 4.1,
       "num_ratings": 10,
       "would_take_again": "70%",
-      "level_of_difficulty": 3.3
+      "level_of_difficulty": 3.3,
+      "reviews": [
+        "Man is a legend of his field. Super smart and caring!",
+        "I loved having RVR as my professor. He can come across as disorganized at times, but it wasn't a big deal for me. I found that he was a hilarious professor that obviously knew the material he was teaching so well yet was so down to earth and super approachable. I thought all the homeworks and projects weren't difficult and the prelims were fair."
+      ]
     },
     {
       "name": "Curran Muhlberger",
@@ -105,7 +149,11 @@
       "quality": 3.9,
       "num_ratings": 35,
       "would_take_again": "100%",
-      "level_of_difficulty": 4.9
+      "level_of_difficulty": 4.9,
+      "reviews": [
+        "He's okay. He covers a ton of things in lectures which makes it pretty difficult to retain all the information. Exams were basically memorization-based, and there wasn't a lot of generous partial credit. Assignments were half easy and half confusing. He didn't really have a personality, so he was just a middle-of-the-road professor.",
+        "Terrible programmer, terrible lecturer, terrible professor. For those of you who know the Java programming language, the dude once had us write an equals() method for an assignment. I also happened to rewrite the hashCode() method, as the JavaDoc contract, and lost points. Tf is this guy doing?"
+      ]
     },
     {
       "name": "Walker White",
@@ -114,7 +162,11 @@
       "quality": 5.0,
       "num_ratings": 133,
       "would_take_again": "94%",
-      "level_of_difficulty": 4.3
+      "level_of_difficulty": 4.3,
+      "reviews": [
+        "Class is well organized but Walker White himself can be so incredibly condescending to students lmao like relax bro you're not that guy",
+        "The class was not terrible, but as for someone with no coding experience, it was horrible. If you are new to CS, please don't take this course."
+      ]
     },
     {
       "name": "Bharath Hariharan",
@@ -123,7 +175,11 @@
       "quality": 2.5,
       "num_ratings": 20,
       "would_take_again": "50%",
-      "level_of_difficulty": 3.0
+      "level_of_difficulty": 3.0,
+      "reviews": [
+        "This isn't the worst course I've ever taken, but it's definitely up there. The material is interesting, but the course is so disorganized that it makes it hard to care about the material. Almost all of our assignments were shoved into the last month of the course. Lectures are boring, slide decks are not organized, and staff support is non-existent",
+        "boring lecture. I feel like I barely learned from this course, even though I did well"
+      ]
     },
     {
       "name": "Rachit Agarwal",
@@ -132,7 +188,11 @@
       "quality": 3.2,
       "num_ratings": 27,
       "would_take_again": "60%",
-      "level_of_difficulty": 3.5
+      "level_of_difficulty": 3.5,
+      "reviews": [
+        "He is a moron",
+        "One of the best lecturers at Cornell. The class requires discipline since the homeworks aren't mandatory, they're just prep for the tests. Our final grade was fully determined by 3 exams, but they were fairly easy. The questions were almost all extremely similar to the problem sets."
+      ]
     },
     {
       "name": "Kilian Weinberger",
@@ -141,7 +201,11 @@
       "quality": 4.3,
       "num_ratings": 50,
       "would_take_again": "66%",
-      "level_of_difficulty": 3.5
+      "level_of_difficulty": 3.5,
+      "reviews": [
+        "A great professor with excellent juggling skills! I had no prior ML experience before this class, and Kilian explained so many tough concepts in ways that just made sense. He is a master at finding helpful analogies and has a great sense of humor. I would highly recommend this class if you are someone that wants to learn the foundations of ML.",
+        "the goat. if he's teaching something while you're enrolled, take it."
+      ]
     },
     {
       "name": "Adrian Sampson",
@@ -150,7 +214,11 @@
       "quality": 5.0,
       "num_ratings": 6,
       "would_take_again": "100%",
-      "level_of_difficulty": 3.9
+      "level_of_difficulty": 3.9,
+      "reviews": [
+        "this is my first rating on this website but I had to give a shoutout to professor sampson. he made a very difficult class (cs 4110) that was FAR out of my comfort zone palatable and enjoyable. he truly cares about his students' learning and the class topics, 10/10 professor.",
+        "I didn't have the time to enjoy CS 4110 with Adrian (I had to drop it because of the courseload of other classes), but he was by far the most intelligent and amusing lecturer I've had as an undergrad. Consider yourself lucky to have him as a lecturer for any course."
+      ]
     },
     {
       "name": "Ken Birman",
@@ -159,7 +227,11 @@
       "quality": 3.4,
       "num_ratings": 37,
       "would_take_again": "58%",
-      "level_of_difficulty": 3.1
+      "level_of_difficulty": 3.1,
+      "reviews": [
+        "Before attending this course, it would be better to have some background in distributed systems. This course seems like a breeze at first, but it's not. In particular, it's very useful in system design interviews. The workload is reasonable, and it's doable to get A+ since there are multiple extra credits.",
+        "Cornell CS degree from engr school early-90s. Birman is a highly regarded scholar/researcher. He was either an asst or assoc prof when I was there. PRO: his research is a good thing for Cornell CS rep. Ugly truth: he was a marginal undergrad instructor, annoyed at having to waste his time teaching, condescending tone, completely unapproachable."
+      ]
     },
     {
       "name": "Graeme Bailey",
@@ -168,7 +240,11 @@
       "quality": 3.8,
       "num_ratings": 78,
       "would_take_again": "17%",
-      "level_of_difficulty": 3.8
+      "level_of_difficulty": 3.8,
+      "reviews": [
+        "I really enjoyed class with Prof Bailey. I loved lecture, and enjoyed the somewhat open ended problems, since he graded them fairly according to how open ended they were. I loved the final project, and found him helpful when I chose to wait to talk to him instead of a TA. Was reasonably understanding about asking for extension.",
+        "I took this over summer. Lectures were usuall rambling, especially having to do with calculus and other unrelated math concepts, and the few homeworks that we had were nearly impossible with what he taught in class. One assignment was so hard that he extended it 2 times, but only on the last day after we'd all agonized over it and gotten no TA help"
+      ]
     },
     {
       "name": "Ramin Zabih",
@@ -177,7 +253,11 @@
       "quality": 3.5,
       "num_ratings": 18,
       "would_take_again": "50%",
-      "level_of_difficulty": 3.1
+      "level_of_difficulty": 3.1,
+      "reviews": [
+        "Uncaring, unreasonable, sloppy exams. Despite making tons of errata on the exam, he defends himself vehemently and refuses to give any points for missing the errata. Also praises himself for pointing out all the errata he makes thinking that we appreciate it. He also decides on point allocation after grading the exam, so that's not very fair.",
+        "I did not like the lack of organization on the HWs and exams. TAs write the HWs and half of each exam. I was told the class gets harder every year. With 5 minutes left on each prelim, we got 15-30 extra minutes, but no extra time on the final, so don't expect it all the time. Overall, that made me feel a lack of trust. Do well on the final."
+      ]
     },
     {
       "name": "Thorsten Joachims",
@@ -186,7 +266,11 @@
       "quality": 3.4,
       "num_ratings": 12,
       "would_take_again": "0%",
-      "level_of_difficulty": 3.7
+      "level_of_difficulty": 3.7,
+      "reviews": [
+        "Honestly this class was a disaster, Lecture notes were terrible and most of the time was spent finding better resources to learn about every single thing he presented in class because he did such a terrible job explaining it in lecture or with lecture notes.",
+        "If Prof Thorsten is teaching machine learning, you have to take it. It's one of the toughest courses, but you feel your IQ is higher after it."
+      ]
     },
     {
       "name": "Donald Greenberg",
@@ -195,7 +279,11 @@
       "quality": 3.6,
       "num_ratings": 11,
       "would_take_again": "100%",
-      "level_of_difficulty": 3.5
+      "level_of_difficulty": 3.5,
+      "reviews": [
+        "High marks on all assignments, low grade on class. Unpredictable.",
+        "Doesn't explain things enough."
+      ]
     },
     {
       "name": "Michael George",
@@ -204,7 +292,11 @@
       "quality": 2.7,
       "num_ratings": 38,
       "would_take_again": "45%",
-      "level_of_difficulty": 3.7
+      "level_of_difficulty": 3.7,
+      "reviews": [
+        "Lectures do not cover the materials that the PSets and the exams are on. His lectures were also super boring and he sometimes moved through too quickly. It's a running joke among CS majors that 2800 is a hellhole that you somehow need to get through. Thank god there's a new prof this year; hopefully, she does a better job.",
+        "Michael George is not the best lecturer, though the lectures are important. But he goes out of his way to help students outside of class, so take advantage of his office hours."
+      ]
     },
     {
       "name": "Joseph Halpern",
@@ -213,7 +305,11 @@
       "quality": 4.3,
       "num_ratings": 22,
       "would_take_again": "100%",
-      "level_of_difficulty": 3.9
+      "level_of_difficulty": 3.9,
+      "reviews": [
+        "Professor Halpern is a great lecturer and is very eager to answer questions outside of lectures. The class is quite hard conceptually, but especially workload wise. Personally I spend +10 h/ week on the course, majority on the HW.",
+        "He is an amazing professor, he clearly cares so much about students. Lectures are very interactive, and he encourages questions to make sure everyone understands concepts"
+      ]
     },
     {
       "name": "Haym Hirsh",
@@ -222,7 +318,12 @@
       "quality": 3.1,
       "num_ratings": 13,
       "would_take_again": "62%",
-      "level_of_difficulty": 2.5
+      "level_of_difficulty": 2.5,
+      "reviews": [
+        "Extremely boring lecturer and repeats himself a lot BUT nice, fair, considerate guy and he'll take the time to give you really thorough and detailed answers to questions you have. Class and material are not hard if you pay attention (go to OH), exams are easy if you memorize his slides (no surprises).",
+        "Interesting material, great test review but hard exams, and a high though non-problematic level of disorganization. This class won't suck away too much time, too. At times when coursework is particularly heavy, Hirsh will give what amounts to a several-day extension on homework, and he provides many high-quality answers on Piazza."
+      ]
     }
   ]
+}
    

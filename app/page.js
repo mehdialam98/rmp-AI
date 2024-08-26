@@ -1,8 +1,6 @@
 'use client';
 import React, { useState } from 'react';
-
 import { useRouter } from 'next/navigation';
-
 import { AppBar, Toolbar, Typography, Container, TextField, Button, Box } from '@mui/material';
 
 export default function Home() {
@@ -10,22 +8,27 @@ export default function Home() {
   const [response, setResponse] = useState("");
   const router = useRouter(); // Initialize the useRouter hook
 
-
   const searchProfessors = async () => {
-    // Simulating an API call
     setResponse("Searching for professors...");
     
     try {
-      // API call here
-      // For now, simulating a mock response
-      await new Promise(resolve => setTimeout(resolve, 1000));
-      
-      const mockResponse = `Here are some professors with the qualities you specified (${qualities}):
-        1. Dr. Jane Smith - Known for engaging lectures and clear explanations
-        2. Prof. John Doe - Praised for interactive teaching style and in-depth knowledge
-        3. Dr. Emily Brown - Highly rated for approachability and thorough feedback`;
-      
-      setResponse(mockResponse);
+      // Send the qualities to the /api/recommended endpoint
+      const res = await fetch('/api/recommended', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ qualities }), // Send the input qualities to the API
+      });
+
+      if (!res.ok) {
+        throw new Error("Failed to fetch recommendations");
+      }
+
+      const data = await res.json(); // Parse the JSON response
+
+      setResponse(data.result); // Set the response with the result from the API
+
     } catch (error) {
       console.error("Error searching professors:", error);
       setResponse("An error occurred while searching for professors. Please try again.");

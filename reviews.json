@@ -110,11 +110,7 @@
       "quality": 3.4,
       "num_ratings": 7,
       "would_take_again": "67%",
-      "level_of_difficulty": 2.0,
-      "reviews": [
-        "Ronald is a great teacher. Despite the fact the class is pass/fail, he gives students a lot of attention and wants them to both pass and understand the content. He also gives great life advice.",
-        "Excellent professor that gives fun and engaging lectures on C++. Very funny, tells great stories, and gives a level of attention to students that is uncommon in an S/U class. Never say never!"
-      ]
+      "level_of_difficulty": 2.0
     },
     {
       "name": "Emin Gun Sirer",
@@ -325,5 +321,4 @@
       ]
     }
   ]
-}
    

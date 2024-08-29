@@ -106,7 +106,9 @@ export default function Home() {
           <TextField
             fullWidth
             multiline
-            rows={4}
+            minRows={3}
+            maxRows={40}
+            //rows={40}
             variant="outlined"
             value={response}
             InputProps={{

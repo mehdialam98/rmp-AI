@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { AppBar, Toolbar, Typography, Container, TextField, Button, Box } from '@mui/material';
+import { Analytics } from "@vercel/analytics/react"
 
 export default function Home() {
   const [qualities, setQualities] = useState("");
